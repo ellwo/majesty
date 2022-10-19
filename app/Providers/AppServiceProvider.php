@@ -54,8 +54,8 @@ class AppServiceProvider extends ServiceProvider
               return  SiteSetting::all();
           });
 
-          $brands=Brand::all();
-          view()->share('brands',$brands);
+         // $brands=Brand::all();
+         // view()->share('brands',$brands);
 
          foreach($settings as $setting){
 
